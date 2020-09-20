@@ -1,0 +1,59 @@
+.content {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    background-image: none;
+    background-color: #fefefe;
+
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-image: url('../ContentBlock/img/reactBg4.jpg');
+}
+
+.container {
+    width: 1000px;
+    color: #fff;
+    margin-left: auto;
+    margin-top: -300px;
+    font-size: 42px;
+}
+
+.link {
+    text-decoration: underline;
+    color: #fff;
+    display: block;
+    margin-top: 20px;
+}
+
+
+
+@media (max-width: 850px) {
+    .container {
+        width: 500px;
+        color: aqua;
+        margin: 0 auto;
+        font-size: 32px;
+    }
+    .link {
+        color: #fff;
+    }
+}
+
+@media (max-width: 320px) {
+    .container {
+        width: 250px;
+        color: yellow;
+        margin: 0 auto;
+        font-size: 22px;
+    }
+    .link {
+        color: yellowgreen;
+    }
+}

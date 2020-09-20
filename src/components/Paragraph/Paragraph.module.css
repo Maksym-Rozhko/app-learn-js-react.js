@@ -1,0 +1,15 @@
+.paragraph {
+    font-size: 20px;
+    color: #000;
+    padding: 15px 0 30px 0;
+    line-height: 1.55;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+@media (max-width: 320px) {
+    .paragraph {
+        font-size: 16px;
+    }
+}

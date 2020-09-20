@@ -1,0 +1,55 @@
+.content {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    background-image: none;
+    background-color: #fefefe;
+
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-image: url('./img/img-bulb.png');
+}
+
+
+
+.reactLogo g {
+    fill: rgba(26,40,120,0.70);
+}
+
+.loader {
+    animation-name: rotation;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    width: 550px;
+    display: block;
+    margin: 0 auto;
+}
+
+@keyframes rotation {
+    0% {
+        transform:rotate(0deg);
+    }
+    100% {
+        transform:rotate(360deg);
+    }
+}
+
+@media (max-width: 320px) {
+    .loader {
+        animation-name: rotation;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+        width: 300px;
+        display: block;
+        margin: 0 auto;
+    }
+}

@@ -1,0 +1,15 @@
+.header {
+    font-size: 38px;
+    color: #070707;
+    padding: 24px 0;
+    letter-spacing: 1px;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+@media (max-width: 320px) {
+    .header {
+        font-size: 28px;
+    }
+}
